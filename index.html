@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandni Photo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Chandni Photo Studio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="welcome-text">
+            <h2>Welcome to Chandni Photo Studio</h2>
+            <p>Capturing your best moments with creativity and professionalism.</p>
+            <a href="/book/book.html" class="cta-btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Wedding Photography</h3>
+                <p>Professional coverage of your special day with high-quality photos.</p>
+            </div>
+            <div class="service-card">
+                <h3>Event Photography</h3>
+                <p>Corporate events, parties, and any special gatherings.</p>
+            </div>
+            <div class="service-card">
+                <h3>Portraits</h3>
+                <p>Stunning portraits for personal and professional purposes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="photo1.jpg" alt="Photo 1"></div>
+            <div class="gallery-item"><img src="photo2.jpg" alt="Photo 2"></div>
+            <div class="gallery-item"><img src="photo3.jpg" alt="Photo 3"></div>
+            <div class="gallery-item"><img src="photo4.jpg" alt="Photo 4"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chandni Photo Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
